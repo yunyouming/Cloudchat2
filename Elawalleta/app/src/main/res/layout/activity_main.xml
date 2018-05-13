@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+       <!-- <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="version :" />
+
+            <TextView
+                android:id="@+id/tx_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1" />
+        </RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="address :" />
+
+            <TextView
+                android:id="@+id/tx_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"/>
+
+        </RelativeLayout>
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="nodeid :" />
+
+            <TextView
+                android:id="@+id/tx_nodeid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"/>
+
+        </RelativeLayout>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="10dp"
+                android:text="userid :" />
+
+            <TextView
+                android:id="@+id/tx_userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="my friends :" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="10dp"
+                android:text="friendAddress:" />
+            <EditText
+                android:id="@+id/edt_addfriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/btn_addfriend"
+                android:layout_width="match_parent"
+                android:textColor="#333333"
+                android:layout_height="wrap_content"
+                android:text="添加好友"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="to:" />
+            <EditText
+                android:id="@+id/edt_tofriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="40dp"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="msg:" />
+            <EditText
+                android:id="@+id/edt_sendMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="40dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_sendMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            android:textSize="18sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="10dp"
+                android:text="from:" />
+            <TextView
+                android:id="@+id/tx_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="50dp"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:layout_marginLeft="10dp"
+                android:text="msg:" />
+            <TextView
+                android:id="@+id/tx_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text=""/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

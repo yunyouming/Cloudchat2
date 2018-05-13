@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CloudChat</string>
+    <string name="wallet">钱包</string>
+    <string name="dapps">应用</string>
+    <string name="message">新消息</string>
+    <string name="quota">行情</string>
+    <string name="contact">联系人</string>
+</resources>

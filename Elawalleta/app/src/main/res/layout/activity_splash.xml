@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ela_bg" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200sp"
+        android:src="@drawable/ela_logo"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360sp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginRight="5sp"
+            android:text="CLOUD" />
+        <TextView
+            android:id="@+id/tx_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B3D4EF"
+            android:textSize="25sp"
+            android:layout_marginLeft="5sp"
+            android:text="CHAT"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
